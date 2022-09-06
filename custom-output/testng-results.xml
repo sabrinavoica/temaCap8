@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T00:31:07 EEST" name="exercitiu" finished-at="2022-09-07T00:34:32 EEST" duration-ms="204481">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T00:31:07 EEST" name="Order test" finished-at="2022-09-07T00:32:19 EEST" duration-ms="71483">
+      <class name="tests.basicAjaxDesktopTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.basicAjaxDesktopTest@1ab3a8c8]" started-at="2022-09-07T00:31:08 EEST" name="beforeMethod" finished-at="2022-09-07T00:32:10 EEST" duration-ms="62473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCodeIn()[pri:0, instance:tests.basicAjaxDesktopTest@1ab3a8c8]" started-at="2022-09-07T00:32:10 EEST" name="testCodeIn" description="The items will be checked for correctness on the next page after pressing the Code it in button." finished-at="2022-09-07T00:32:16 EEST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCodeIn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.basicAjaxDesktopTest@1ab3a8c8]" started-at="2022-09-07T00:32:16 EEST" name="afterMethod" finished-at="2022-09-07T00:32:19 EEST" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.basicAjaxDesktopTest -->
+    </test> <!-- Order test -->
+    <test started-at="2022-09-07T00:32:19 EEST" name="exercitiul1" finished-at="2022-09-07T00:32:40 EEST" duration-ms="21120">
+      <class name="tests.disableDynamicButtonTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.disableDynamicButtonTest@4550bb58]" started-at="2022-09-07T00:32:19 EEST" name="beforeMethod" finished-at="2022-09-07T00:32:27 EEST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="buttons()[pri:0, instance:tests.disableDynamicButtonTest@4550bb58]" started-at="2022-09-07T00:32:27 EEST" name="buttons" finished-at="2022-09-07T00:32:36 EEST" duration-ms="9284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttons -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.disableDynamicButtonTest@4550bb58]" started-at="2022-09-07T00:32:36 EEST" name="afterMethod" finished-at="2022-09-07T00:32:40 EEST" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.disableDynamicButtonTest -->
+    </test> <!-- exercitiul1 -->
+    <test started-at="2022-09-07T00:32:40 EEST" name="exercitiul2" finished-at="2022-09-07T00:33:29 EEST" duration-ms="48415">
+      <class name="tests.javaScriptRedirectionTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.javaScriptRedirectionTest@4efbca5a]" started-at="2022-09-07T00:32:40 EEST" name="beforeMethod" finished-at="2022-09-07T00:33:12 EEST" duration-ms="31969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="transportInSeconds()[pri:0, instance:tests.javaScriptRedirectionTest@4efbca5a]" started-at="2022-09-07T00:33:12 EEST" name="transportInSeconds" description="Check buttons that redirect to a new page, using wait and windowHandles" finished-at="2022-09-07T00:33:24 EEST" duration-ms="12121" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for text ('You have been successfully redirected.') to be present in element [[ChromeDriver: chrome on WINDOWS (5745f7ae3dc4dee23522863d1ed8b1f0)] -> css selector: body > div > div.explanation] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-1CVLIIA', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DAN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5745f7ae3dc4dee23522863d1ed8b1f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('You have been successfully redirected.') to be present in element [[ChromeDriver: chrome on WINDOWS (5745f7ae3dc4dee23522863d1ed8b1f0)] -> css selector: body > div > div.explanation] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-1CVLIIA', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DAN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:65239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65239/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5745f7ae3dc4dee23522863d1ed8b1f0
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at tests.javaScriptRedirectionTest.transportInSeconds(javaScriptRedirectionTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transportInSeconds -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.javaScriptRedirectionTest@4efbca5a]" started-at="2022-09-07T00:33:24 EEST" name="afterMethod" finished-at="2022-09-07T00:33:29 EEST" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.javaScriptRedirectionTest -->
+    </test> <!-- exercitiul2 -->
+    <test started-at="2022-09-07T00:33:29 EEST" name="exercitiul3" finished-at="2022-09-07T00:33:59 EEST" duration-ms="30718">
+      <class name="tests.refreshPageTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.refreshPageTest@72967906]" started-at="2022-09-07T00:33:29 EEST" name="beforeMethod" finished-at="2022-09-07T00:33:41 EEST" duration-ms="12013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="refresh()[pri:0, instance:tests.refreshPageTest@72967906]" started-at="2022-09-07T00:33:41 EEST" name="refresh" finished-at="2022-09-07T00:33:55 EEST" duration-ms="14615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.refreshPageTest@72967906]" started-at="2022-09-07T00:33:55 EEST" name="afterMethod" finished-at="2022-09-07T00:33:59 EEST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.refreshPageTest -->
+    </test> <!-- exercitiul3 -->
+    <test started-at="2022-09-07T00:33:59 EEST" name="exercitiul4" finished-at="2022-09-07T00:34:32 EEST" duration-ms="32400">
+      <class name="tests.simpleDynamicTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.simpleDynamicTest@55183b20]" started-at="2022-09-07T00:33:59 EEST" name="beforeMethod" finished-at="2022-09-07T00:34:18 EEST" duration-ms="18290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="butons()[pri:0, instance:tests.simpleDynamicTest@55183b20]" started-at="2022-09-07T00:34:18 EEST" name="butons" description="At the end will check the message displayed." finished-at="2022-09-07T00:34:29 EEST" duration-ms="11102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- butons -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.simpleDynamicTest@55183b20]" started-at="2022-09-07T00:34:29 EEST" name="afterMethod" finished-at="2022-09-07T00:34:32 EEST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.simpleDynamicTest -->
+    </test> <!-- exercitiul4 -->
+  </suite> <!-- exercitiu -->
+</testng-results>

@@ -1,0 +1,16 @@
+tests\basicAjaxDesktopTest.class
+tests\javaScriptRedirectionMobile.class
+tests\javaScriptRedirectionTest.class
+tests\simpleDynamicMobile.class
+page\BasicAjax.class
+tests\disableDynamicButtonMobile.class
+page\JavaRedirection.class
+tests\refreshPageMobile.class
+tests\disableDynamicButtonTest.class
+tests\simpleDynamicTest.class
+page\SimpleDynamicButtons.class
+driver\ConfigBrowser.class
+tests\baseTest.class
+page\RefreshPage.class
+tests\basicAjaxMobileTest.class
+tests\refreshPageTest.class

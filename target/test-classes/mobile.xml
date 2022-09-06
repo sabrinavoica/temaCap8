@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="exercitiu" verbose="1" >
+    <test name="Order test" >
+        <classes>
+            <class name="tests.basicAjaxMobileTest" />
+        </classes>
+    </test>
+
+    <test name="exercitiu1" >
+        <classes>
+            <class name="tests.disableDynamicButtonMobile" />
+        </classes>
+    </test>
+
+    <test name="exercitiu2" >
+        <classes>
+            <class name="tests.javaScriptRedirectionMobile" />
+        </classes>
+    </test>
+
+    <test name="exercitiu3">
+        <classes>
+            <class name="tests.refreshPageMobile" />
+        </classes>
+    </test>
+
+    <test name="exercitiu4" >
+        <classes>
+            <class name="tests.simpleDynamicMobile" />
+        </classes>
+    </test>
+
+</suite>

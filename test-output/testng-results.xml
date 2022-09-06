@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T00:27:26 EEST" name="exercitiu" finished-at="2022-09-07T00:29:05 EEST" duration-ms="98821">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T00:27:26 EEST" name="Order test" finished-at="2022-09-07T00:27:49 EEST" duration-ms="22593">
+      <class name="tests.basicAjaxMobileTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.basicAjaxMobileTest@55a1c291]" started-at="2022-09-07T00:27:27 EEST" name="beforeMethod" finished-at="2022-09-07T00:27:42 EEST" duration-ms="15060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCodeIn()[pri:0, instance:tests.basicAjaxMobileTest@55a1c291]" started-at="2022-09-07T00:27:42 EEST" name="testCodeIn" description="The items will be checked for correctness on the next page after pressing the Code it in button." finished-at="2022-09-07T00:27:48 EEST" duration-ms="5811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCodeIn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.basicAjaxMobileTest@55a1c291]" started-at="2022-09-07T00:27:48 EEST" name="afterMethod" finished-at="2022-09-07T00:27:49 EEST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.basicAjaxMobileTest -->
+    </test> <!-- Order test -->
+    <test started-at="2022-09-07T00:27:49 EEST" name="exercitiu1" finished-at="2022-09-07T00:28:00 EEST" duration-ms="11141">
+      <class name="tests.disableDynamicButtonMobile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.disableDynamicButtonMobile@1d76aeea]" started-at="2022-09-07T00:27:49 EEST" name="beforeMethod" finished-at="2022-09-07T00:27:54 EEST" duration-ms="4845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="buttons()[pri:0, instance:tests.disableDynamicButtonMobile@1d76aeea]" started-at="2022-09-07T00:27:54 EEST" name="buttons" finished-at="2022-09-07T00:27:58 EEST" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttons -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.disableDynamicButtonMobile@1d76aeea]" started-at="2022-09-07T00:27:58 EEST" name="afterMethod" finished-at="2022-09-07T00:28:00 EEST" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.disableDynamicButtonMobile -->
+    </test> <!-- exercitiu1 -->
+    <test started-at="2022-09-07T00:28:00 EEST" name="exercitiu2" finished-at="2022-09-07T00:28:25 EEST" duration-ms="25079">
+      <class name="tests.javaScriptRedirectionMobile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.javaScriptRedirectionMobile@27c86f2d]" started-at="2022-09-07T00:28:00 EEST" name="beforeMethod" finished-at="2022-09-07T00:28:06 EEST" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="transportInSeconds()[pri:0, instance:tests.javaScriptRedirectionMobile@27c86f2d]" started-at="2022-09-07T00:28:06 EEST" name="transportInSeconds" description="Check buttons that redirect to a new page, using wait and windowHandles" finished-at="2022-09-07T00:28:21 EEST" duration-ms="15198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transportInSeconds -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.javaScriptRedirectionMobile@27c86f2d]" started-at="2022-09-07T00:28:21 EEST" name="afterMethod" finished-at="2022-09-07T00:28:25 EEST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.javaScriptRedirectionMobile -->
+    </test> <!-- exercitiu2 -->
+    <test started-at="2022-09-07T00:28:26 EEST" name="exercitiu3" finished-at="2022-09-07T00:28:44 EEST" duration-ms="18168">
+      <class name="tests.refreshPageMobile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.refreshPageMobile@13c10b87]" started-at="2022-09-07T00:28:26 EEST" name="beforeMethod" finished-at="2022-09-07T00:28:33 EEST" duration-ms="6846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="refresh()[pri:0, instance:tests.refreshPageMobile@13c10b87]" started-at="2022-09-07T00:28:33 EEST" name="refresh" finished-at="2022-09-07T00:28:41 EEST" duration-ms="8963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.refreshPageMobile@13c10b87]" started-at="2022-09-07T00:28:41 EEST" name="afterMethod" finished-at="2022-09-07T00:28:44 EEST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.refreshPageMobile -->
+    </test> <!-- exercitiu3 -->
+    <test started-at="2022-09-07T00:28:44 EEST" name="exercitiu4" finished-at="2022-09-07T00:29:05 EEST" duration-ms="21450">
+      <class name="tests.simpleDynamicMobile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.simpleDynamicMobile@f8c1ddd]" started-at="2022-09-07T00:28:44 EEST" name="beforeMethod" finished-at="2022-09-07T00:28:50 EEST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="butons()[pri:0, instance:tests.simpleDynamicMobile@f8c1ddd]" started-at="2022-09-07T00:28:50 EEST" name="butons" description="At the end will check the message displayed." finished-at="2022-09-07T00:29:02 EEST" duration-ms="11787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- butons -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.simpleDynamicMobile@f8c1ddd]" started-at="2022-09-07T00:29:02 EEST" name="afterMethod" finished-at="2022-09-07T00:29:05 EEST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.simpleDynamicMobile -->
+    </test> <!-- exercitiu4 -->
+  </suite> <!-- exercitiu -->
+</testng-results>
